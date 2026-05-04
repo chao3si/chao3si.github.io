@@ -1485,7 +1485,7 @@ static void make_request(int major,int rw, struct buffer_head * bh)
     return;
   }
 repeat:
-  if(请求队列大小不足){
+  if (req < request) {
     sleep_on(&wait_for_request); // 2.
     goto repeat;
   }
@@ -1544,7 +1544,7 @@ _keyboard_interrupt:
   key_table(,%eax,4)
     do_self:
       put_queue // 调整指针, 放入队列
-        movl _table_list,%edx    # read-queue for console
+        movl _table_list,%edx    // read-queue for console
         movl head(%edx),%ecx
   void do_tty_interrupt(int tty)
     copy_to_cooked(tty_table+tty);
