@@ -29,16 +29,17 @@ panel:
 
 copyright:
   # Shown at the bottom of the post
-  license:
-    template: This post is licensed under :LICENSE_NAME by the author.
-    name: CC BY 4.0
-    link: https://creativecommons.org/licenses/by/4.0/
+  # license:
+  #   template: This post is licensed under :LICENSE_NAME by the author.
+  #   name: CC BY 4.0
+  #   link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
-  brief: Some rights reserved.
+  brief: All rights reserved.
   verbose: >-
-    Except where otherwise noted, the blog posts on this site are licensed
-    under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
+    You may quote portions of the content from this website for non-commercial, educational, or research purposes,
+    provided that proper attribution is given and a link to the original article is included.
+    Without the explicit written permission of the author, full reproduction, copying, modification, translation, redistribution, or any form of commercial use is strictly prohibited.
 
 meta: Using the :THEME theme for :PLATFORM.
 
